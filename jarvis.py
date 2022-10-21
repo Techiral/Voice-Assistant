@@ -93,10 +93,10 @@ if __name__ == "__main__":
             strTime = datetime.datetime.now().strftime("%H:%M:%S")    
             speak(f"Sir, the time is {strTime}")
 		
-	elif 'made you' in query or 'created you' in query:  
+        elif 'made you' in query or 'created you' in query:  
             speak("Lakshya Sir, owner of Techiral created me")
 	
-	elif 'am i' in query or 'me' in query:  
+        elif 'am i' in query or 'me' in query:  
             speak("You're the next Tony Stark, Sir")
 
         elif 'email to lakshya' in query:
